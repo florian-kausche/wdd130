@@ -87,5 +87,16 @@ aside h2{
   p {
     padding: 10px;
   }
-  
- 
+/* Style the links */
+nav a {
+  display: inline-block; /* Display links as inline-block elements */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Add padding */
+  margin-right: 10px; /* Add margin between links */
+}
+
+/* Hover effect for links */
+nav a:hover {
+  background-color: #555; /* Darker background color on hover */
+}
