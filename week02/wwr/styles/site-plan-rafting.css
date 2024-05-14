@@ -1,0 +1,71 @@
+/* Import selected fonts from Google Fonts API */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+
+/* Define CSS variables for font families */
+:root {
+  --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Open Sans', sans-serif;
+}
+
+/* Apply font families to different elements */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #ffa630ff;
+    --secondary-color: #d7e8baff;
+    --accent-color: #4da1a9ff;
+    --additional-accent-color: #2e5077ff;
+    --heading-font: 'Arial', sans-serif;
+    --paragraph-font: 'Times New Roman', serif;
+    --nav-background-color: #ffa630ff;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #2e5077ff;
+    --nav-hover-background-color: #ffffff;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+  header {
+    padding: 20px; 
+    background-color: var(--secondary-color); /*secondary color variable */
+  }
+      
+  p{
+    padding: 25px;
+    
+  }
+
+  nav {
+    background-color: var(--nav-background-color); /* Use the navigation background color variable */
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    color: var(--nav-link-color); /* Use the navigation link color variable */
+    text-decoration: none; /* Remove underline from links */
+    padding: 1rem;
+    display: block;
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color); /* Use the navigation hover link color variable */
+    background-color: var(--nav-hover-background-color); /* Use the navigation hover background color variable */
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
