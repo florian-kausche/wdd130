@@ -1,3 +1,23 @@
+ *  {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box; 
+}
+/* Original aside rule */
+/* aside {
+  width: 20em;
+  text-align: center;
+} */
+/* class selectors */
+.box {
+  margin: 1rem; /* Margin of 1rem */
+  border: 1px solid rgba(0,0,0,.1); /* 1px solid border with slight transparency */
+  padding: 1rem; /* Padding of 1rem */
+  background-color: #add8e6; /* Light blue background color */
+  color: #000; /* Black text color */
+}
+
+
  main {
   max-width: 840px;
  }
@@ -10,6 +30,7 @@
   background-color: #eee;
   color: #333;
   text-align: center;
+  
 }
 
 aside img {
@@ -54,8 +75,17 @@ footer {
     box-shadow: 0 0 30px gray;
 
   }
+  main img{
+    float: right;
+  }
+aside h2{
+  position:relative;
+  left: 5px;
+  top: 0.5px;
+}
 
   p {
     padding: 10px;
   }
+  
  
