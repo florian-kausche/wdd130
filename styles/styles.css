@@ -87,6 +87,7 @@ aside h2{
   p {
     padding: 10px;
   }
+  /* The codes below let the nav menus elements side-by-side each other.*/
 /* Style the links */
 nav a {
   display: inline-block; /* Display links as inline-block elements */
