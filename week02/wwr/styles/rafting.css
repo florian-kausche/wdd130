@@ -5,9 +5,9 @@
 
 /* Define CSS variables */
 :root {
-  --primary-color: #2c3e50;
-  --secondary-color: #3498db;
-  --text-color: #333;
+    --primary-color: rgb(23, 214, 248);
+    --secondary-color: #d7e8baff;
+  --text-color: rgb(76, 196, 116);;
 }
 
 /* Body styles */
@@ -59,13 +59,20 @@ main {
 
 .hero h1 {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
   margin: 0;
   font-size: 3em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better visibility */
+
 }
+/* Hover effect for h1 */
+nav a:hover {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Adjust shadow for hover effect */
+  }
+  
 
 .hero article {
   position: absolute;
