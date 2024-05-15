@@ -22,7 +22,7 @@ body {
 header {
   background-color: var(--primary-color);
   color: white;
-  padding: 20px;
+  padding: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -142,4 +142,9 @@ footer p {
 .rafting5  {
   width: 700px;
   height: auto;
+}
+.rafting-logo{
+  width: 100px;
+  height: auto;
+  
 }
