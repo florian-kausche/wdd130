@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
-
+/* Styling header image */
 header img {
   width: 150px;
   height: auto;
