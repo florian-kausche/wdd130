@@ -3,11 +3,7 @@
   padding: 0;
   box-sizing:border-box; 
 }
-/* Original aside rule */
-/* aside {
-  width: 20em;
-  text-align: center;
-} */
+
 /* class selectors */
 .box {
   margin: 1rem; /* Margin of 1rem */
