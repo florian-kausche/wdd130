@@ -4,7 +4,9 @@
   box-sizing:border-box; 
 }
 
-/* class selectors */
+/* 
+class selectors 
+*/
 .box {
   margin: 1rem; /* Margin of 1rem */
   border: 1px solid rgba(0,0,0,.1); /* 1px solid border with slight transparency */
