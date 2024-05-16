@@ -73,7 +73,6 @@ nav a:hover {
     text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.7); /* Adjust shadow for hover effect */
   }
   
-
 .hero article {
   position: absolute;
   bottom: 20px;
@@ -106,16 +105,13 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
 footer p {
   margin: 0;
 }
-
 .sociallinks a {
   text-decoration: none;
   
 }
-
 .sociallinks img {
   width: 18px;
   height: 18px;
@@ -146,6 +142,5 @@ footer p {
 .rafting-logo{
   width: 100px;
   height: auto;
-  
 }
 
