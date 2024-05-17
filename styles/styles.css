@@ -85,6 +85,7 @@ nav a:hover {
 /* Heading 1 Styling */
 h1 {
   color: steelblue; /* Steel blue text color */
+  padding: 20px;
 }
 
 /* Heading 2 Styling in Aside Section */
