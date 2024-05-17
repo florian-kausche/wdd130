@@ -37,7 +37,10 @@ aside img {
 main img {
   width: 150px;
   height: auto;
-  float: right;
+}
+
+p {
+  padding: 0;
 }
 
 footer {
@@ -50,6 +53,11 @@ footer {
     padding: 10px;
   }
 
+  nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+  }
 
   h1 {
     color: steelblue;
@@ -63,7 +71,9 @@ footer {
     box-shadow: 0 0 30px gray;
 
   }
-
+  main img{
+    float: right;
+  }
 aside h2{
   position:absolute;
   top: 40px;
