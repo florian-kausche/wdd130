@@ -1,0 +1,100 @@
+ *  {
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box; 
+}
+
+/* class selectors */
+.box {
+  margin: 1rem; /* Margin of 1rem */
+  border: 1px solid rgba(0,0,0,.1); /* 1px solid border with slight transparency */
+  padding: 1rem; /* Padding of 1rem */
+  background-color: #add8e6; /* Light blue background color */
+  color: #000; /* Black text color */
+}
+
+
+ main {
+  max-width: 840px;
+ }
+
+ aside {
+  width: 20rem;
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  background-color: #eee;
+  color: #333;
+  text-align: center;
+  position: relative;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+}
+
+p {
+  padding: 0;
+}
+
+footer {
+  margin-top: 15px;
+  border-top: 1px solid #000;
+  text-align: center;
+}
+ nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+
+  nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+  }
+
+  h1 {
+    color: steelblue;
+  }
+
+  img {
+    width: 150px;
+    height:auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+
+  }
+  main img{
+    float: right;
+  }
+aside h2{
+  position:absolute;
+  top: 40px;
+  left: 3px;
+  
+}
+
+  p {
+    padding: 10px;
+  }
+  /* The codes below let the nav menus elements lie side-by-side each other.*/
+/* Style the links */
+nav a {
+  display: inline-block; /* Display links as inline-block elements */
+  color: #fff; /* White text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px; /* Add padding */
+  margin-right: 10px; /* Add margin between links */
+}
+
+/* Hover effect for links */
+nav a:hover {
+  background-color: #555; /* Darker background color on hover */
+}
