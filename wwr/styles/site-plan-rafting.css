@@ -2,19 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 :root {
-  --primary-color: #ffa630ff;
-  --secondary-color: #d7e8baff;
-  --accent1-color: #4da1a9ff;
-  --accent1-color: rgb(12, 222, 241);
-  /* --additional-accent-color: #2e5077ff; */
-  --heading-font: 'Arial', sans-serif;
-  --paragraph-font: 'Times New Roman', serif;
-  --nav-background-color: rgb(15, 139, 211);
-  --nav-link-color: #ffffff;
-  --nav-hover-link-color: #2e5077ff;
-  --nav-hover-background-color: #0a90e9;
+  --primary-color: #ffa630;
+  --secondary-color: #d7e8ba;
+  --accent1-color: #4da1a9;
+  --accent2-color: #0cdef1;
+  --additional-accent-color: #2e5077;
   --heading-font: 'Roboto', sans-serif;
+  --paragraph-font: 'Times New Roman', serif;
+  --nav-background-color: #0f8bd3;
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #2e5077;
+  --nav-hover-background-color: #0a90e9;
 }
+
 
 /* Apply font families to different elements */
 h1, h2, h3, h4, h5, h6 {
