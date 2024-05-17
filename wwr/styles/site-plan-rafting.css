@@ -1,7 +1,20 @@
 /* Import selected fonts from Google Fonts API */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
-
+:root {
+  --primary-color: #ffa630ff;
+  --secondary-color: #d7e8baff;
+  --accent1-color: #4da1a9ff;
+  --accent1-color: rgb(12, 222, 241);
+  /* --additional-accent-color: #2e5077ff; */
+  --heading-font: 'Arial', sans-serif;
+  --paragraph-font: 'Times New Roman', serif;
+  --nav-background-color: rgb(15, 139, 211);
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #2e5077ff;
+  --nav-hover-background-color: #0a90e9;
+  --heading-font: 'Roboto', sans-serif;
+}
 
 /* Apply font families to different elements */
 h1, h2, h3, h4, h5, h6 {
@@ -26,20 +39,7 @@ body{
 
   /* Define CSS variables for font families */
 
-:root {
-  --primary-color: #ffa630ff;
-  --secondary-color: #d7e8baff;
-  --accent1-color: #4da1a9ff;
-  --accent1-color: rgb(12, 222, 241);
-  /* --additional-accent-color: #2e5077ff; */
-  --heading-font: 'Arial', sans-serif;
-  --paragraph-font: 'Times New Roman', serif;
-  --nav-background-color: rgb(15, 139, 211);
-  --nav-link-color: #ffffff;
-  --nav-hover-link-color: #2e5077ff;
-  --nav-hover-background-color: #0a90e9;
-  --heading-font: 'Roboto', sans-serif;
-}
+
   nav {
     background-color: var(--nav-background-color); /* Use the navigation background color variable */
     font-size: 1.2rem;
