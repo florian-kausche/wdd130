@@ -2,18 +2,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
 
 /* Define CSS variables for font families */
+
 :root {
+  --primary-color: #ffa630ff;
+  --secondary-color: #d7e8baff;
+  --accent1-color: #4da1a9ff;
+  --accent1-color: rgb(12, 222, 241);
+  /* --additional-accent-color: #2e5077ff; */
+  --heading-font: 'Arial', sans-serif;
+  --paragraph-font: 'Times New Roman', serif;
+  --nav-background-color: rgb(15, 139, 211);
+  --nav-link-color: #ffffff;
+  --nav-hover-link-color: #2e5077ff;
+  --nav-hover-background-color: #0a90e9;
   --heading-font: 'Roboto', sans-serif;
-  --paragraph-font: 'Open Sans', sans-serif;
 }
 
 /* Apply font families to different elements */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
+  color: var(--primary-color);
 }
 
 p {
   font-family: var(--paragraph-font);
+  padding: 25px;
 }
 body{
     font-family: var(--paragraph-font);
@@ -21,31 +34,9 @@ body{
     padding: 20px;
 }
 
-:root {
-    --primary-color: #ffa630ff;
-    --secondary-color: #d7e8baff;
-    --accent1-color: #4da1a9ff;
-    --accent1-color: rgb(12, 222, 241);
-    /* --additional-accent-color: #2e5077ff; */
-    --heading-font: 'Arial', sans-serif;
-    --paragraph-font: 'Times New Roman', serif;
-    --nav-background-color: rgb(15, 139, 211);
-    --nav-link-color: #ffffff;
-    --nav-hover-link-color: #2e5077ff;
-    --nav-hover-background-color: #0a90e9;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-  }
   header {
     padding: 20px; 
     background-color: var(--secondary-color); /*secondary color variable */
-  }
-      
-  p{
-    padding: 25px;
-    
   }
 
   nav {
