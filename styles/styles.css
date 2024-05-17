@@ -4,7 +4,6 @@
   box-sizing: border-box; 
 }
 
-/* Class Selectors */
 .box {
   margin: 1rem; /* Margin of 1rem */
   border: 1px solid rgba(0, 0, 0, 0.1); /* 1px solid border with slight transparency */
@@ -31,6 +30,9 @@ aside {
 aside img,
 main img {
   height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
 }
 
 aside img {
@@ -40,12 +42,6 @@ aside img {
 main img {
   width: 150px;
   float: right;
-}
-
-img {
-  border: 1px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
 }
 
 p {
