@@ -57,7 +57,7 @@ nav a:hover {
 h1 {
   border-bottom: 2px solid #000; /* Black bottom border for emphasis */
   color: steelblue; /* Steel blue text color to match the theme */
-  padding: 16px; /* Padding for spacing */
+  padding: 6px; /* Padding for spacing */
 }
 
 /* Main Section Styling */
