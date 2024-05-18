@@ -1,0 +1,96 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+  /* Class Selectors */
+  /* Box Class - for general container styling */
+  .box {
+    margin: 1rem; /* Margin of 1rem */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* 1px solid border with slight transparency */
+    padding: 1rem; /* Padding of 1rem */
+    background-color: #add8e6; /* Light blue background color */
+    color: #000; /* Black text color */
+  }
+  
+  /* Main Section Styling */
+  main {
+    max-width: 840px; /* Maximum width of 840px */
+  }
+  
+  /* Aside Section Styling */
+  aside {
+    width: 20rem; /* Fixed width of 20rem */
+    margin: 1rem; /* Margin of 1rem */
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1px solid border with slight transparency */
+    padding: 1rem; /* Padding of 1rem */
+    background-color: #eee; /* Light grey background color */
+    color: #333; /* Dark grey text color */
+    text-align: center; /* Center align text */
+    position: relative; /* Relative positioning */
+  }
+  
+  /* Image Styling for both aside and main sections */
+  aside img,
+  main img {
+    height: auto; /* Maintain aspect ratio */
+    border: 1px solid steelblue; /* Steel blue border */
+    padding: 2px; /* Padding of 2px */
+    box-shadow: 0 0 30px gray; /* Gray shadow effect */
+  }
+  
+  /* Specific Image Widths */
+  aside img {
+    width: 200px; /* Fixed width of 200px for aside images */
+  }
+  
+  main img {
+    width: 150px; /* Fixed width of 150px for main images */
+    float: right; /* Float to the right */
+  }
+  
+  /* Paragraph Styling */
+  p {
+    padding: 10px; /* Padding of 10px */
+  }
+  
+  /* Footer Styling */
+  footer {
+    margin-top: 15px; /* Top margin of 15px */
+    border-top: 1px solid #000; /* Black top border */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: steelblue; /* Steel blue background */
+    padding: 10px; /* Padding of 10px */
+  }
+  
+  /* Navigation Links Styling */
+  nav a {
+    display: inline-block; /* Display links as inline-block elements */
+    color: #fff; /* White text color */
+    text-decoration: none; /* Remove underline */
+    padding: 10px; /* Add padding */
+    margin-right: 10px; /* Add margin between links */
+  }
+  
+  /* Navigation Links Hover Effect */
+  nav a:hover {
+    background-color: #555; /* Darker background color on hover */
+  }
+  
+  /* Heading 1 Styling */
+  h1 {
+    color: steelblue; /* Steel blue text color */
+    padding: 6px;
+  }
+  
+  /* Heading 2 Styling in Aside Section */
+  aside h2 {
+    position: absolute; /* Absolute positioning */
+    top: 40px; /* 40px from the top */
+    left: 3px; /* 3px from the left */
+  }

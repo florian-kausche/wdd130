@@ -1,96 +1,134 @@
 /* Global Styles */
+/* Apply universal box-sizing and remove default margin and padding */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; 
 }
+
 /* Class Selectors */
 /* Box Class - for general container styling */
+/* Adding margin, border, padding, background color, and text color */
 .box {
-  margin: 1rem; /* Margin of 1rem */
-  border: 1px solid rgba(0, 0, 0, 0.1); /* 1px solid border with slight transparency */
-  padding: 1rem; /* Padding of 1rem */
+  margin: 1rem; /* Adds space around the box */
+  border: 1px solid rgba(0, 0, 0, 0.1); /* Light border with slight transparency */
+  padding: 1rem; /* Inner space within the box */
   background-color: #add8e6; /* Light blue background color */
   color: #000; /* Black text color */
 }
 
-/* Main Section Styling */
-main {
+/* Centering content and setting max-width for header, grid, and footer */
+/* Ensures consistent width and central alignment */
+header, .grid, footer {
   max-width: 840px; /* Maximum width of 840px */
-}
-
-/* Aside Section Styling */
-aside {
-  width: 20rem; /* Fixed width of 20rem */
-  margin: 1rem; /* Margin of 1rem */
-  border: 1px solid rgba(0, 0, 0, 0.2); /* 1px solid border with slight transparency */
-  padding: 1rem; /* Padding of 1rem */
-  background-color: #eee; /* Light grey background color */
-  color: #333; /* Dark grey text color */
-  text-align: center; /* Center align text */
-  position: relative; /* Relative positioning */
-}
-
-/* Image Styling for both aside and main sections */
-aside img,
-main img {
-  height: auto; /* Maintain aspect ratio */
-  border: 1px solid steelblue; /* Steel blue border */
-  padding: 2px; /* Padding of 2px */
-  box-shadow: 0 0 30px gray; /* Gray shadow effect */
-}
-
-/* Specific Image Widths */
-aside img {
-  width: 200px; /* Fixed width of 200px for aside images */
-}
-
-main img {
-  width: 150px; /* Fixed width of 150px for main images */
-  float: right; /* Float to the right */
-}
-
-/* Paragraph Styling */
-p {
-  padding: 10px; /* Padding of 10px */
-}
-
-/* Footer Styling */
-footer {
-  margin-top: 15px; /* Top margin of 15px */
-  border-top: 1px solid #000; /* Black top border */
-  text-align: center; /* Center align text */
+  margin: 0 auto; /* Center the elements horizontally */
 }
 
 /* Navigation Bar Styling */
+/* Style the navigation bar and align items using Flexbox */
 nav {
-  background-color: steelblue; /* Steel blue background */
-  padding: 10px; /* Padding of 10px */
+  background-color: steelblue; /* Steel blue background color */
+  padding: 1rem; /* Padding around the navigation bar */
+  display: flex; /* Use Flexbox for layout */
+  justify-content: space-evenly; /* Evenly space out the links */
+  align-items: center; /* Center items vertically */
 }
 
 /* Navigation Links Styling */
+/* Style the navigation links to look appealing */
 nav a {
-  display: inline-block; /* Display links as inline-block elements */
-  color: #fff; /* White text color */
-  text-decoration: none; /* Remove underline */
-  padding: 10px; /* Add padding */
-  margin-right: 10px; /* Add margin between links */
+  display: block; /* Make links block elements for better padding control */
+  padding: 0.5rem; /* Add padding inside the links */
+  text-decoration: none; /* Remove underline from links */
+  font-size: 1.2rem; /* Increase font size */
+  font-weight: 700; /* Make text bold */
+  color: #fff; /* White text color for contrast */
 }
 
 /* Navigation Links Hover Effect */
+/* Change background color when hovering over links */
 nav a:hover {
   background-color: #555; /* Darker background color on hover */
 }
 
 /* Heading 1 Styling */
+/* Style the main heading to stand out */
 h1 {
-  color: steelblue; /* Steel blue text color */
-  padding: 6px;
+  border-bottom: 2px solid #000; /* Black bottom border for emphasis */
+  color: steelblue; /* Steel blue text color to match the theme */
+  padding: 16px; /* Padding for spacing */
+}
+
+/* Main Section Styling */
+/* Style the main content area and define grid column */
+main {
+  grid-column: 2/3; /* Place main content in the second column of the grid */
+  margin: 1rem; /* Add margin around the main content */
+}
+
+/* Aside Section Styling */
+/* Style the sidebar and define its position in the grid */
+aside {
+  width: 20rem; /* Fixed width for the sidebar */
+  position: relative; /* Relative positioning for absolute child elements */
+  grid-column: 1/2; /* Place sidebar in the first column of the grid */
+  grid-row: 1/2; /* Occupy the first row of the grid */
+  margin: 1rem; /* Add margin around the sidebar */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Light border with slight transparency */
+  padding: 1rem; /* Inner space within the sidebar */
+  background-color: #eee; /* Light grey background color */
+  color: #333; /* Dark grey text color */
+  text-align: center; /* Center-align the text */
+}
+
+/* Image Styling for both aside and main sections */
+/* Ensure images maintain aspect ratio, have borders and shadow effects */
+aside img,
+main img {
+  height: auto; /* Maintain aspect ratio */
+  border: 1px solid steelblue; /* Steel blue border to match theme */
+  padding: 2px; /* Small padding inside the border */
+  box-shadow: 0 0 30px gray; /* Gray shadow effect for depth */
+}
+
+/* Specific Image Widths */
+/* Define different widths for images in aside and main sections */
+aside img {
+  width: 200px; /* Fixed width for images in the sidebar */
+}
+
+main img {
+  width: 150px; /* Fixed width for images in the main content */
+  float: right; /* Float images to the right within the main content */
+}
+
+/* Paragraph Styling */
+/* Add padding to paragraphs for better readability */
+p {
+  padding: 10px; /* Inner space within paragraphs */
+}
+
+/* Footer Styling */
+/* Style the footer with margin, border, and centered text */
+footer {
+  margin-top: 15px; /* Space above the footer */
+  border-top: 1px solid #000; /* Black top border for emphasis */
+  text-align: center; /* Center-align the text */
+}
+
+/* Grid Container */
+/* Define the layout of the grid container with two columns and spacing */
+.grid {
+  display: grid; /* Use CSS Grid for layout */
+  grid-template-columns: 1fr 3fr; /* Define column widths: sidebar (1fr) and main content (3fr) */
+  align-items: center; /* Center items vertically */
+  gap: 1rem; /* Space between grid items */
 }
 
 /* Heading 2 Styling in Aside Section */
+/* Position the heading absolutely within the sidebar */
 aside h2 {
   position: absolute; /* Absolute positioning */
-  top: 40px; /* 40px from the top */
-  left: 3px; /* 3px from the left */
+  top: 40px; /* Position 40px from the top */
+  left: 3px; /* Position 3px from the left */
 }
