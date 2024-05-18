@@ -58,6 +58,10 @@ h1 {
   border-bottom: 2px solid #000; /* Black bottom border for emphasis */
   color: steelblue; /* Steel blue text color to match the theme */
   padding: 6px; /* Padding for spacing */
+  margin-bottom: 10px; /* Margin bottom to create space between image and border */
+  white-space: nowrap; /* Prevent text from wrapping */
+  overflow: hidden; /* Hide overflowing text */
+  text-overflow: ellipsis; /* Show ellipsis for overflow */
 }
 
 /* Main Section Styling */
