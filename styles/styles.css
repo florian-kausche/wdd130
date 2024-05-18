@@ -41,7 +41,7 @@ nav a {
   display: block; /* Make links block elements for better padding control */
   padding: 0.5rem; /* Add padding inside the links */
   text-decoration: none; /* Remove underline from links */
-  font-size: 1.2rem; /* Increase font size */
+  font-size: 1.2rem; /* font size */
   font-weight: 700; /* Make text bold */
   color: #fff; /* White text color for contrast */
 }
@@ -95,7 +95,7 @@ main img {
 /* Specific Image Widths */
 /* Define different widths for images in aside and main sections */
 aside img {
-  width: 200px; /* Fixed width for images in the sidebar */
+  width: 200px; /* Fixed width for image*/
 }
 
 main img {
