@@ -154,6 +154,11 @@ section h2 {
     height: auto;
 }
 
+.archives img {
+  width: 100%;
+  height: auto;
+}
+
 /* Footer styles */
 footer {
     background-color: var(--primary-color);
