@@ -129,13 +129,13 @@ section h2 {
 
 .archives img {
   background: linear-gradient(135deg, #090892, #0f52ba);
-  color: #fff;
   padding: 0.5em;
   margin: 0;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  width: 50;
+  width: 100%;
   height: auto;
+
 }
 
 .archives {
@@ -152,11 +152,6 @@ section h2 {
 .adventures img {
     width: 100%;
     height: auto;
-}
-
-.archives img {
-  width: 100%;
-  height: auto;
 }
 
 /* Footer styles */
