@@ -117,10 +117,35 @@ section h2 {
 }
 
 .adventures figure {
-    background-color: #090892;
-    font-size: 14px;
-    padding: 0.25em;
-    margin: 0;
+  background: linear-gradient(135deg, #090892, #0f52ba);
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5em;
+  margin: 0;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.archives img {
+  background: linear-gradient(135deg, #090892, #0f52ba);
+  color: #fff;
+  padding: 0.5em;
+  margin: 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50;
+  height: auto;
+}
+
+.archives {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.archives h2 {
+    grid-column: 1 / -1;
     text-align: center;
 }
 
