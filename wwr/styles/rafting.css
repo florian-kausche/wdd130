@@ -8,13 +8,29 @@
     --text-color: rgb(13, 34, 21);
 }
 
-/* Body styles */
+/* General styles */
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    color: rgb(7, 79, 121);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: var(--secondary-color);
+    margin-bottom: 10px;
 }
 
 /* Header styles */
@@ -82,12 +98,6 @@ main {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-h1 {
-    text-align: center;
-    margin: 0;
-    font-size: 3em;
-    color: rgb(7, 79, 121);
-}
 
 .hero article {
     position: absolute;
@@ -105,24 +115,23 @@ h1 {
     margin-left: 10px;
 }
 
-/* Section styles */
-section {
-    margin-bottom: 20px;
-}
-
-section h2 {
-    color: var(--secondary-color);
-    margin-bottom: 10px;
-}
-
 /* Adventures section */
-.adventures {
+.adventures,
+.archives {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
     gap: 20px;
 }
 
-.adventures h2 {
+.adventures {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.archives {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.adventures h2,
+.archives h2 {
     grid-column: 1 / -1;
     text-align: center;
 }
@@ -143,27 +152,7 @@ section h2 {
     color: #fff;
     font-size: 14px;
     padding: 0.5em;
-    margin: 0;
     text-align: center;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-/* Archives section */
-.archives {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.archives h2 {
-    grid-column: 1 / -1;
-    text-align: center;
-}
-
-.adventures img {
-    width: 100%;
-    height: auto;
 }
 
 /* Footer styles */
@@ -304,6 +293,7 @@ button[type="submit"]:hover {
     font-size: 16px;
     line-height: 1.6;
 }
+
 /* Styling the office1 image */
 figure.our-office {
     margin-top: 20px;
