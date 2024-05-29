@@ -280,17 +280,6 @@ button[type="submit"]:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.employee-image {
-    margin-right: 20px;
-}
-
-.employee-image img {
-    display: block;
-    max-width: 15%;
-    height: auto;
-    border-radius: 50%;
-}
-
 .employee-details {
     flex: 1;
 }
