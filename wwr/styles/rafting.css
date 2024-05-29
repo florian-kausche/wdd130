@@ -317,3 +317,86 @@ figure.our-office img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: -10px;
 }
+
+
+/* Contact form button hover effect */
+.contact-form button:hover,
+.cta-button:hover {
+    background-color: var(--secondary-color); /* Change button background color on hover */
+    color: white;                            /* Change button text color to white */
+    cursor: pointer;                         /* Change cursor to pointer */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow effect */
+}
+
+/* CTA section styles */
+.cta {
+    text-align: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.trip-descriptions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.trip {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.trip h2 {
+    color: var(--secondary-color);
+    margin: 15px 0 10px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.trip-table th,
+.trip-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.trip-table th {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.trip-table tr:hover {
+    background-color: #f1f1f1;
+}
+.trip img{
+    width: auto;
+    height: 120px;
+}
