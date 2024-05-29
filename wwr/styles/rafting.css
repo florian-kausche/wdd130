@@ -404,6 +404,9 @@ figure.our-office img {
 /* Home page Styling*
 
 /* Newsletter section */
+/* Home Page Specific Styles */
+
+/* Newsletter section */
 .newsletter {
     text-align: center;
     padding: 20px;
@@ -426,11 +429,11 @@ figure.our-office img {
     display: block;
     margin-bottom: 10px;
     padding: 8px;
+    width: 300px;
 }
 
 .newsletter form button {
     padding: 10px 20px;
-    
 }
 
 /* Grid layout */
@@ -450,8 +453,8 @@ figure.our-office img {
 }
 
 .grid-item img {
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
     border-radius: 8px 8px 0 0;
 }
 
@@ -466,4 +469,3 @@ figure.our-office img {
     display: block;
     margin-top: 10px;
 }
-
