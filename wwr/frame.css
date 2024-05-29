@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.image-container {
+    padding: 20px;
+    border: 10px solid #000; /* Default frame color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.framed-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.controls {
+    margin-top: 20px;
+}

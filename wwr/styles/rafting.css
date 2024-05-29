@@ -393,9 +393,6 @@ figure.our-office img {
 /* Home page Styling*
 
 /* Newsletter section */
-/* Home Page Specific Styles */
-
-/* Newsletter section */
 .newsletter {
     text-align: center;
     padding: 20px;
@@ -452,10 +449,17 @@ figure.our-office img {
     margin: 15px 0 0;
 }
 
-/* Wireframe Link */
-.wireframe-link a {
-    color: white;
-    text-decoration: none;
-    display: block;
-    margin-top: 10px;
+/* picture frame for photos */
+.employee img {
+    padding: 20px;
+    border: 10px solid #14cee3; /* Default frame color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/* .framed-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+} */
+
+
