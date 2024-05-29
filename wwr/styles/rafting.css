@@ -400,3 +400,71 @@ figure.our-office img {
     width: auto;
     height: 120px;
 }
+
+/* Home page Styling*
+
+/* Newsletter section */
+.newsletter {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter form {
+    display: inline-block;
+    text-align: left;
+}
+
+.newsletter form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.newsletter form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 300px;
+}
+
+.newsletter form button {
+    padding: 10px 20px;
+    
+}
+
+/* Grid layout */
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.grid-item img {
+    width: auto;
+    height: 300px;
+    border-radius: 8px 8px 0 0;
+}
+
+.grid-item p {
+    margin: 15px 0 0;
+}
+
+/* Wireframe Link */
+.wireframe-link a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
