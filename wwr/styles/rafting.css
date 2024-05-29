@@ -453,7 +453,7 @@ figure.our-office img {
 .employee img {
     padding: 20px;
     border: 10px solid #14cee3; /* Default frame color */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 12px rgba(14, 13, 13, 0.2);
 }
 
 /* .framed-image {
