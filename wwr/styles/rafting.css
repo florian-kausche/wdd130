@@ -453,9 +453,10 @@ figure.our-office img {
 }
 
 .grid-item img {
-    width: 100%;
+    width: 300px;
     height: auto;
     border-radius: 8px 8px 0 0;
+
 }
 
 .grid-item p {
