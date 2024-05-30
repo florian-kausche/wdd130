@@ -20,7 +20,7 @@ body {
 /* Header styles */
 header {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 12px;
 }
 
@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: rgb(8, 7, 7);
     text-decoration: none;
     margin-left: 20px;
     font-weight: bold;
@@ -79,7 +79,7 @@ main {
     text-align: center;
     margin: 0;
     font-size: 3em;
-    color: white;
+    color: rgb(12, 31, 239);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 h1 {
@@ -129,18 +129,18 @@ section h2 {
 
 .adventures figure,
 .archives img {
-    background: linear-gradient(135deg, #c8eaf1, #6ce2e6);
+    /* background: linear-gradient(135deg, #c8eaf1, #6ce2e6); */
     padding: 0.5em;
     margin: 0;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
 }
 
 .adventures figure {
-    background: linear-gradient(135deg, #090892, #0f52ba);
-    color: #fff;
+    background: linear-gradient(135deg, #a8a8e9, #6b82a4);
+    color: #0d0579;
     font-size: 14px;
     padding: 0.5em;
     margin: 0;
@@ -165,11 +165,25 @@ section h2 {
     width: 100%;
     height: auto;
 }
+/* Fieldset styling */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
 
 /* Footer styles */
 footer {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(6, 55, 161);
     padding: 20px;
     text-align: center;
     display: flex;
@@ -312,7 +326,7 @@ figure.our-office img {
 .contact-form button:hover,
 .cta-button:hover {
     background-color: var(--secondary-color); /* Change button background color on hover */
-    color: white;                            /* Change button text color to white */
+    color: rgb(45, 10, 156);                            /* Change button text color to white */
     cursor: pointer;                         /* Change cursor to pointer */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add subtle shadow effect */
 }
@@ -321,7 +335,7 @@ figure.our-office img {
 .cta {
     text-align: center;
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(19, 6, 138);
     padding: 40px 20px;
     margin-bottom: 20px;
 }
@@ -375,7 +389,7 @@ figure.our-office img {
 
 .trip-table th {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(21, 6, 132);
 }
 
 .trip-table tr:nth-child(even) {
