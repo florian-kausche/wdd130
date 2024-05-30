@@ -168,16 +168,14 @@ section h2 {
 /* Fieldset styling */
 fieldset {
     border: 1px solid #ccc;
-    padding: 10px;
     border-radius: 4px;
-    margin-bottom: 15px;
+   
 }
 
 /* Legend styling */
+
 legend {
-    font-weight: bold;
-    padding: 0 10px;
-    margin-bottom: 5px;
+    font-weight: bold; 
 }
 
 /* Footer styles */
@@ -231,7 +229,7 @@ footer p {
 }
 
 .contact-info {
-    height: 710px;
+    height: 773px;
     overflow: hidden;
     position: relative;
 }
@@ -314,8 +312,8 @@ figure.our-office {
 
 figure.our-office img {
     max-width: 110%;
-    width: 450px;
-    height: 350px;
+    width: 750px;
+    height: 450px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-left: -10px;
@@ -409,7 +407,6 @@ figure.our-office img {
 /* Newsletter section */
 .newsletter {
     text-align: center;
-    padding: 20px;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -429,7 +426,7 @@ figure.our-office img {
     display: block;
     margin-bottom: 10px;
     padding: 8px;
-    width: 300px;
+    width: 200px;
 }
 
 .newsletter form button {
